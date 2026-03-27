@@ -1,0 +1,14 @@
+[package]
+name = "feedin"
+version = "0.1.0"
+description = "Rust crate for driving interactive CLI programs by feeding stdin line by line"
+edition = "2024"
+license = "MIT"
+
+[workspace]
+members = ["quiz"]
+resolver = "2"
+
+
+[dependencies]
+thiserror = "2.0.12"

@@ -1,6 +1,6 @@
-[**Русская версия**](README.ru.md)
-
 # feedin
+
+> [**Русская версия**](README.ru.md)
 
 A small Rust library for driving interactive CLI programs from utilities: the process starts, and lines are fed to stdin one after another. Handy for building wrappers around legacy apps that used question-and-answer style prompts.
 
